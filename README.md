@@ -1,12 +1,70 @@
-# React + Vite
+# Mini-CRM: Client Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and effective CRM (Client Relationship Management) system to help you organize, manage, and interact with your clients. Built primarily using JavaScript and HTML, this app is perfect for small businesses or freelancers needing a lightweight solution.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add, view, edit, and delete client records
+- Search and filter through your client list
+- Responsive and user-friendly interface
+- Easy setup and deployment
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- JavaScript
+- HTML
+- [Vite](https://vitejs.dev/) (for build and development)
+- ESLint (for code linting)
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/minahil2674/Mini-CRM--Client-Management-App.git
+   cd Mini-CRM--Client-Management-App
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
+
+### Build for Production
+
+To build the app for production:
+```sh
+npm run build
+```
+
+## File Structure
+
+- `index.html` - Main HTML entry point
+- `package.json` & `package-lock.json` - Project dependencies and scripts
+- `vite.config.js` - Vite configuration
+- `eslint.config.js` - ESLint configuration
+
+## Contribution
+
+Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is open source. You may use it as you wish.
+
+---
+
+> Developed by [minahil2674](https://github.com/minahil2674)
